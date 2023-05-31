@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+.header{
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(75, 75, 75);
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+.list ul li{
+    float: left;
+    list-style: none;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.sign{
+    float: right;
+    display: flex;
+}
+.sign p{
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.sign button{
+    height: 30px;
+    width: 125px;
+    border: none;
+    border: 1px solid rgb(46, 46, 46);
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(230, 230, 1);
+    cursor: pointer;
+}
+.container1{
+    padding-top: 25px;
+    background: #eae9e9;
+}
+.container1 h1{
+    padding-left: 40px;
+}
+.container1 h1 span{
+    color: red;
+}
+.container1 h6{
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.img{
+    height: 610px;
+    width: 100%;
+    background: url(hand.png) no-repeat center center/cover;
+    /* height: 60%; */
+}
+.container2{
+    display: flex;
+    height: 100vh;
+    padding: 40px;
+    background: #eae9e9;
+}
+.text1{
+    width: 50%;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 90px;
+    text-align: center;
+}
+.text1 p{
+    font-family: 'Ubuntu', sans-serif;
+}
+.text1 h1{
+    margin-bottom: 30px;
+}
+#image1{
+    height: 80%;
+    width: 50%;
+    background: url(mind3.webp)no-repeat center center/cover;
+}
+#image2{
+    height: 80%;
+    width: 50%;
+    background: url(mind.jpg)no-repeat center center/cover;
+}
+footer{
+    padding: 50px;
+    background: rgb(183, 183, 3);
+}
+footer ul{
+    float: left;
+}
+footer ul li{
+    list-style: none;
+    padding-right: 40px;
+    float: left;
+}
+footer p{
+    float: right;
+}
